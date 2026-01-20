@@ -20,9 +20,9 @@ function getAxios() {
 }
 
 program
-  .name('exa')
+  .name('exa-cli')
   .description('CLI for Exa AI search via GAP proxy')
-  .version('1.0.0');
+  .version('1.0.4');
 
 // Web Search
 program

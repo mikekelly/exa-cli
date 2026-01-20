@@ -9,7 +9,7 @@
     "url": "git+https://github.com/mikekelly/exa-cli.git"
   },
   "bin": {
-    "exa": "dist/cli.js"
+    "exa-cli": "dist/cli.js"
   },
   "files": [
     "dist"

@@ -12,32 +12,33 @@ npm install -g @realmikekelly/exa-cli
 
 ## Prerequisites
 
-1. **GAP installed and running** - Install from [github.com/anthropics/gap](https://github.com/anthropics/gap)
-2. **GAP token** - Create one with `gap token create`
+1. **GAP installed and running** - See [GAP documentation](https://github.com/anthropics/gap)
+2. **GAP token** - Create with `gap token create`
 3. **Exa plugin configured in GAP** - Install with `gap install exa`
 
 ## Configuration
 
-Set your GAP token in one of two ways:
+Set your GAP token in a `.env` file in your working directory:
 
-1. Create a `.env` file in your working directory:
-   ```
-   GAP_TOKEN=your-token-here
-   ```
+```
+GAP_TOKEN=your-token-here
+```
 
-2. Or set it as an environment variable:
-   ```bash
-   export GAP_TOKEN=your-token-here
-   ```
+Or as an environment variable:
+
+```bash
+export GAP_TOKEN=your-token-here
+```
 
 The CLI checks `.env` first, then falls back to the environment variable.
 
-## Commands
+## Usage
 
 ### Web Search
+
 ```bash
-exa search "your query"
-exa search "anthropic claude" -n 10 -t deep
+exa-cli search "your query"
+exa-cli search "anthropic claude" -n 10 -t deep
 ```
 
 Options:
@@ -47,45 +48,50 @@ Options:
 - `-c, --context-max <chars>` - Max characters for context (default: 10000)
 
 ### Code Search
+
 ```bash
-exa code "react hooks typescript"
-exa code "express middleware authentication" -t 10000
+exa-cli code "react hooks typescript"
+exa-cli code "express middleware authentication" -t 10000
 ```
 
 Options:
 - `-t, --tokens <number>` - Number of tokens to return, 1000-50000 (default: 5000)
 
 ### Deep Search
+
 ```bash
-exa deep-search "what are the latest developments in AI safety"
-exa deep-search "climate change solutions" -q "renewable energy" "carbon capture"
+exa-cli deep-search "latest developments in AI safety"
+exa-cli deep-search "climate change solutions" -q "renewable energy" "carbon capture"
 ```
 
 Options:
 - `-q, --queries <queries...>` - Additional search queries
 
 ### URL Crawling
+
 ```bash
-exa crawl "https://example.com/article"
-exa crawl "https://docs.example.com" -c 5000
+exa-cli crawl "https://example.com/article"
+exa-cli crawl "https://docs.example.com" -c 5000
 ```
 
 Options:
 - `-c, --max-chars <number>` - Maximum characters to extract (default: 3000)
 
 ### LinkedIn Search
+
 ```bash
-exa linkedin "software engineer san francisco"
-exa linkedin "CEO startup" -n 10
+exa-cli linkedin "software engineer san francisco"
+exa-cli linkedin "CEO startup" -n 10
 ```
 
 Options:
 - `-n, --num-results <number>` - Number of results (default: 5)
 
 ### Company Research
+
 ```bash
-exa company "Anthropic"
-exa company "OpenAI" -n 10
+exa-cli company "Anthropic"
+exa-cli company "OpenAI" -n 10
 ```
 
 Options:
@@ -94,17 +100,19 @@ Options:
 ### Deep Research
 
 Start a comprehensive AI research task:
+
 ```bash
-exa research start "What are the implications of quantum computing on cryptography?"
-exa research start "Analysis of renewable energy adoption" -m exa-research-pro
+exa-cli research start "implications of quantum computing on cryptography"
+exa-cli research start "renewable energy adoption" -m exa-research-pro
 ```
 
 Options:
 - `-m, --model <model>` - Model: exa-research or exa-research-pro (default: exa-research)
 
 Check research status:
+
 ```bash
-exa research check <taskId>
+exa-cli research check <taskId>
 ```
 
 ## License
