@@ -7,11 +7,6 @@ By [Mike Kelly](https://github.com/mikekelly).
 ## Installation
 
 ```bash
-npm install -g github:mikekelly/exa-cli
-```
-
-Or via npm (if available):
-```bash
 npm install -g @realmikekelly/exa-cli
 ```
 
