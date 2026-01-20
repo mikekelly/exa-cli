@@ -30,7 +30,6 @@
     "build:cli": "tsc && chmod +x dist/cli.js",
     "watch": "tsc --watch",
     "dev": "tsx src/cli.ts",
-    "prepare": "npm run build && chmod +x dist/cli.js",
     "prepublishOnly": "npm run build && chmod +x dist/cli.js"
   },
   "dependencies": {

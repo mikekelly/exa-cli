@@ -1,0 +1,1 @@
+{"version":3,"file":"axiosGap.d.ts","sourceRoot":"","sources":["../../src/utils/axiosGap.ts"],"names":[],"mappings":"AAAA,OAAc,EAAE,aAAa,EAAE,YAAY,EAAE,MAAM,OAAO,CAAC;AAiE3D,MAAM,WAAW,qBAAqB;IACpC,QAAQ,CAAC,EAAE,MAAM,CAAC;CACnB;AAED;;GAEG;AACH,wBAAgB,MAAM,CAAC,OAAO,CAAC,EAAE,qBAAqB,GAAG,aAAa,CA0BrE;AAED,OAAO,EAAE,YAAY,EAAE,CAAC;;;;;AACxB,wBAAwC"}
