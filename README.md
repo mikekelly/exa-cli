@@ -7,6 +7,11 @@ By [Mike Kelly](https://github.com/mikekelly).
 ## Installation
 
 ```bash
+npm install -g github:mikekelly/ex-cli
+```
+
+Or via npm (if available):
+```bash
 npm install -g @realmikekelly/ex-cli
 ```
 
