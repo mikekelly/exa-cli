@@ -1,4 +1,4 @@
-# ex-cli
+# exa-cli
 
 CLI for [Exa AI](https://exa.ai) search via [GAP](https://github.com/anthropics/gap) (Gated Agent Proxy).
 
@@ -7,12 +7,12 @@ By [Mike Kelly](https://github.com/mikekelly).
 ## Installation
 
 ```bash
-npm install -g github:mikekelly/ex-cli
+npm install -g github:mikekelly/exa-cli
 ```
 
 Or via npm (if available):
 ```bash
-npm install -g @realmikekelly/ex-cli
+npm install -g @realmikekelly/exa-cli
 ```
 
 ## Prerequisites

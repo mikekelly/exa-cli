@@ -1,12 +1,12 @@
 {
-  "name": "@realmikekelly/ex-cli",
+  "name": "@realmikekelly/exa-cli",
   "version": "1.0.1",
   "description": "CLI for Exa AI search via GAP (Gated Agent Proxy). Provides web search, code search, deep search, URL crawling, LinkedIn search, company research, and deep research capabilities.",
   "type": "module",
   "module": "./src/index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikekelly/ex-cli.git"
+    "url": "git+https://github.com/mikekelly/exa-cli.git"
   },
   "bin": {
     "exa": "dist/src/cli.js"
