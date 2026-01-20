@@ -13,8 +13,9 @@ npm install -g @realmikekelly/exa-cli
 ## Prerequisites
 
 1. **GAP installed and running** - See [GAP documentation](https://github.com/anthropics/gap)
-2. **GAP token** - Create with `gap token create`
-3. **Exa plugin configured in GAP** - Install with `gap install exa`
+2. **Install the Exa plugin** - `mikekelly/exa-gap`
+3. **Set your Exa API key in GAP**
+4. **Create a GAP token for your agent**
 
 ## Configuration
 
