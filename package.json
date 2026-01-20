@@ -9,7 +9,7 @@
     "url": "git+https://github.com/mikekelly/exa-cli.git"
   },
   "bin": {
-    "exa": "dist/src/cli.js"
+    "exa": "dist/cli.js"
   },
   "files": [
     "dist"
@@ -27,11 +27,11 @@
   "author": "Mike Kelly",
   "scripts": {
     "build": "tsc",
-    "build:cli": "tsc && chmod +x dist/src/cli.js",
+    "build:cli": "tsc && chmod +x dist/cli.js",
     "watch": "tsc --watch",
     "dev": "tsx src/cli.ts",
-    "prepare": "npm run build && chmod +x dist/src/cli.js",
-    "prepublishOnly": "npm run build && chmod +x dist/src/cli.js"
+    "prepare": "npm run build && chmod +x dist/cli.js",
+    "prepublishOnly": "npm run build && chmod +x dist/cli.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
